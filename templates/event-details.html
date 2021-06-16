@@ -41,8 +41,8 @@
 
     <div class="col">
       <h3>Start date</h3>
-      {# TODO: Replace EVENT START DATE with event's start date #}
-      <p>EVENT START DATE</p>
+      
+      <p>{{start_date}}</p>
 
       <h3>Venues</h3>
       <ul>
@@ -57,12 +57,7 @@
 
       <h3>Classifications</h3>
       <ul>
-        {#
-          TODO: Remove placeholder <li> tag & loop over all event
-          classifications to generate an `li` element for each classification.
-
-          Each `li` should contain the name of the classification's *genre*.
-        #}
+        {{classification}}
         <li>PLACEHOLDER</li>
       </ul>
     </div>
